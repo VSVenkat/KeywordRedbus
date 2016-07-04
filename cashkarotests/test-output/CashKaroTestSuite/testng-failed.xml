@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CashKaroTestSuite]">
+  <test name="cashkarotests(failed)">
+    <classes>
+      <class name="org.cashkaro.cashkarotests.Test01">
+        <methods>
+          <include name="forgotPassword"/>
+          <include name="JoinUsingFacebookAccount"/>
+          <include name="JoinCashKaroFree"/>
+          <include name="setup"/>
+          <include name="SignInAsNewUser"/>
+        </methods>
+      </class> <!-- org.cashkaro.cashkarotests.Test01 -->
+    </classes>
+  </test> <!-- cashkarotests(failed) -->
+</suite> <!-- Failed suite [CashKaroTestSuite] -->

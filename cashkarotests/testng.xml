@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CashKaroTestSuite">
+    <test name="cashkarotests">
+        <classes>
+            <class name="org.cashkaro.cashkarotests.Test01"/>
+        </classes>
+    </test>
+</suite>

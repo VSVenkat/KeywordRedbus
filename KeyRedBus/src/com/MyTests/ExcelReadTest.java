@@ -15,6 +15,7 @@ public class ExcelReadTest {
 			for(int j=1;j<excel.getColumnCount("MyTests");j++)
 			{
 				System.out.println("             "+excel.getCellData("MyTests", j, i));
+				System.out.println("Just a test");
 			}
 		}
 	}

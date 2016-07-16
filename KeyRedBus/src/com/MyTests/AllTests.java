@@ -1,5 +1,8 @@
 package com.MyTests;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -37,6 +40,22 @@ public class AllTests {
 		System.out.println(actual);
 		System.out.println("verify ended");
 		System.out.println("TEXT IS CORRECT");
+	}
+	
+	public void open()
+	{
+		System.out.println("Open executed");
+	}
+	
+	public void click()
+	{
+		System.out.println("click executed");
+	}
+	
+	public void Verify()
+	{
+		System.out.println("verification done");
+
 	}
 
 }
